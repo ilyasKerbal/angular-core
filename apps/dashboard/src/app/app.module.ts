@@ -16,9 +16,9 @@ import { CustomersModule } from './customers/customers.module';
     RouterModule.forRoot([], { initialNavigation: 'enabled' }),
     NoopAnimationsModule,
     MaterialModule,
-    HomeModule,
     ProjectsModule,
-    CustomersModule
+    CustomersModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
