@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Project, ProjectsService } from '@workshop/core-data';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-projects',
@@ -24,7 +23,7 @@ export class ProjectsComponent implements OnInit {
       details: "",
       percentComplete: 0,
       approved: false
-    }
+    };
     this.selectedProject = emptyProject;
   }
 
